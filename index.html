@@ -91,10 +91,12 @@
             <table class="table table-striped">
               <thead>
                 <tr>
-                  <th>Titolo</th>
-                  <th class="d-none d-md-table-cell">Data presito</th>
-                  <th>Stato</th>
-                  <th>Azioni</th>
+                  <th class="col-6" scope="col">Titolo</th>
+                  <th class="d-none d-md-table-cell col-md-2" scope="col">
+                    Data presito
+                  </th>
+                  <th class="col-3 col-md-2">Stato</th>
+                  <th class="col-3 col-md-2">Azioni</th>
                 </tr>
               </thead>
               <tbody>
@@ -327,115 +329,113 @@
             </table>
           </div>
           <div class="col-md-12 col-lg-3">
-            <div class="row">
-              <div class="card mb-4 ps-0 pe-0">
-                <div class="card-header fs-3">Todo</div>
-                <div class="card m-3">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                      <input
-                        class="form-check-input me-1"
-                        type="checkbox"
-                        value=""
-                        aria-label="Checkbox for following text input"
-                      />Chiamare segreteria
-                    </li>
-                    <li class="list-group-item">
-                      <input
-                        class="form-check-input me-1"
-                        type="checkbox"
-                        value=""
-                        aria-label="Checkbox for following text input"
-                      />Mandare avvisi prestiti scaduti
-                    </li>
-                    <li class="list-group-item">
-                      <input
-                        class="form-check-input me-1"
-                        type="checkbox"
-                        value=""
-                        aria-label="Checkbox for following text input"
-                      />Ordinare nuovi libri
-                    </li>
-                  </ul>
-                </div>
+            <div class="card mb-4 ps-0 pe-0">
+              <div class="card-header fs-3">Todo</div>
+              <div class="card m-3">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <input
+                      class="form-check-input me-1"
+                      type="checkbox"
+                      value=""
+                      aria-label="Checkbox for following text input"
+                    />Chiamare segreteria
+                  </li>
+                  <li class="list-group-item">
+                    <input
+                      class="form-check-input me-1"
+                      type="checkbox"
+                      value=""
+                      aria-label="Checkbox for following text input"
+                    />Mandare avvisi prestiti scaduti
+                  </li>
+                  <li class="list-group-item">
+                    <input
+                      class="form-check-input me-1"
+                      type="checkbox"
+                      value=""
+                      aria-label="Checkbox for following text input"
+                    />Ordinare nuovi libri
+                  </li>
+                </ul>
               </div>
+            </div>
 
-              <div class="card ps-0 pe-0">
-                <div class="card-header fs-3">F.A.Q.</div>
-                <div class="accordion accordion-flush">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne"
-                        aria-expanded="true"
-                        aria-controls="collapseOne"
-                      >
-                        Come aggiungere un nuovo libro?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseOne"
-                      class="accordion-collapse collapse show"
-                      data-bs-parent="#accordionExample"
+            <div class="card ps-0 pe-0">
+              <div class="card-header fs-3">F.A.Q.</div>
+              <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
                     >
-                      <div class="accordion-body">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Fugit in iusto exercitationem quisquam
-                        voluptatibus aperiam neque labore rem hic placeat.
-                      </div>
+                      Come aggiungere un nuovo libro?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Fugit in iusto exercitationem quisquam voluptatibus
+                      aperiam neque labore rem hic placeat.
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="collapseTwo"
-                      >
-                        Come posso accedere all'anagrafica utenti?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseTwo"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#accordionExample"
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
                     >
-                      <div class="accordion-body">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Maxime aspernatur ipsa nisi possimus odit beatae
-                        aut velit consequatur! Architecto, alias?
-                      </div>
+                      Come posso accedere all'anagrafica utenti?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Maxime aspernatur ipsa nisi possimus odit beatae aut velit
+                      consequatur! Architecto, alias?
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree"
-                        aria-expanded="false"
-                        aria-controls="collapseThree"
-                      >
-                        Posso usare questa dashboard da mobile?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseThree"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#accordionExample"
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
                     >
-                      <div class="accordion-body">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Suscipit fugit asperiores quasi exercitationem magnam.
-                        Temporibus cum odit sit deserunt totam?
-                      </div>
+                      Posso usare questa dashboard da mobile?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Suscipit fugit asperiores quasi exercitationem magnam.
+                      Temporibus cum odit sit deserunt totam?
                     </div>
                   </div>
                 </div>
